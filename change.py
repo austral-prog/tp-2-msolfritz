@@ -1,13 +1,13 @@
-def change():
-    expense = 23.75
-    money = 100
+def cambio():
+    Gasto = 23.75
+    Dinero = 100
 
-    returned = money - expense
+    Vuelto = Dinero - Gasto
 
-    dollars = int(returned)
-    cents = int((returned - dollars)*100)
+    Pesos = int(Vuelto)
+    Centavos = int((Vuelto - Pesos)*100)
 
-    print("\nReturned\n")
-    print(f"Dollars:\n{dollars}")
-    print(f"Cents:\n{cents}")
+    print("\nVuelto\n")
+    print(f"Pesos:\n{Pesos}")
+    print(f"Centavos:\n{Centavos}")
     
