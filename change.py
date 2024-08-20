@@ -11,11 +11,9 @@ def change():
     pesos = int(vuelto)
     centavos = int(round((vuelto - pesos)*100))
 
-    print("Ingresar gasto:")
-    print(gasto)
-    print("Dinero recibido")
-    print(int(Dinero_recibido))
-
-    print (" \nVuelto\n")
-    print (f"Pesos: \n{pesos}")
-    print (f"Centavos: \n{centavos}")
+    print(f"Ingresar gasto:\n{gasto}")
+    print(f"Dinero recibido\n{int(Dinero_recibido)}")
+    print("")
+    print ("Vuelto\n")
+    print (f"Pesos:\n{pesos}")
+    print (f"Centavos:\n{centavos}")
